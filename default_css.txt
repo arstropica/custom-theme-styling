@@ -1,0 +1,293 @@
+/*******************************/
+/*Theme*/
+/*******************************/
+/*Customize below here*/
+/*Structure*/
+BODY
+{
+    background: url(images/bg.gif) repeat;
+    color: #000;
+    font-size: 12px;
+    font-family: Arial, Tahoma, Verdana;
+    margin: 0px auto 0;
+    padding: 0;
+    line-height: 20px;
+}
+#inner
+{
+    background: url(images/page_bg.png) no-repeat fixed 0 0 transparent;
+}
+#wrap
+{
+    background-color: #FFF;
+    padding: 0 10px;
+}
+/*Header*/
+#header
+{
+    height: 200px;
+}
+#header #title
+{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+#header #title A
+{
+    background: url(images/header.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+P.feedLinks
+{
+    top: 30px;
+    left: 80px;
+}
+.pmc_link_container A
+{
+    top: 75px;
+    left: 15px;
+    position: absolute;
+    z-index: 1;
+}
+/*Navigation*/
+/*-Nav Menu*/
+#nav
+{
+    height: 35px;
+    background: url(images/navbar.png);
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 16px;
+    text-decoration: none;
+}
+#nav .menu
+{
+    background: transparent;
+    border: none;
+}
+#nav .menu LI, #nav .menu LI A
+{
+    background: transparent;
+    border: none;
+}
+#nav LI A
+{
+    color: #000000;
+    font-size: 16px;
+    padding: 7px 15px 8px;
+}
+#nav LI A:hover, #nav LI A:active
+{
+    color: #000000;
+    background: url(images/navhov.png);
+    text-decoration: none;
+}
+
+#nav LI.current_page_item A
+{
+    background: url(images/link_current.png) repeat;
+    text-decoration: none;
+}
+
+/*-SubNav Menu*/
+#subnav
+{
+    height: 30px;
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 10px;
+    font-weight: bold;
+    background: url(images/subnavbar.png);
+    color: #000000;
+    text-transform: uppercase;
+}
+#subnav .menu
+{
+    background: transparent;
+    border: none;
+}
+#subnav LI A
+{
+    background: url(images/subnavbar.png);
+    color: #FFF;
+    font-size: 10px;
+    padding: 5px 15px;
+    border: none;
+}
+#subnav LI LI A, #subnav LI LI A:link, #subnav LI LI A:visited
+{
+    background: url(images/subnavbar.png);
+}
+#subnav LI A:hover, #subnav LI A:active, #subnav LI.current-cat A
+{
+    color: #FFF;
+    background: url(images/subnavbar_hov.png);
+    text-decoration: none;
+}
+/*Breadcrumbs*/
+DIV.breadcrumb
+{
+    color: #000;
+}
+DIV.breadcrumb A
+{
+    color: #000;
+}
+/*Content*/
+#content
+{
+    background: url(images/blogwidget_bg.png) repeat;
+}
+.sidebar-content #content, .content-sidebar #content
+{
+    padding: 9px 9px 0;
+}
+.full-width-content #content
+{
+    padding: 9px;
+    border: 1px solid #DDDDDD;
+}
+#content IMG, #content P IMG
+{
+    max-width: 100%;
+}
+#content BLOCKQUOTE
+{
+    background: #E3E4A3 repeat 0 0;
+    border-color: #DDDDDD #666666 #666666 #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 25px 15px;
+    padding: 10px 20px 0 15px;
+}
+#content .post
+{
+    margin: 0 0 40px;
+    padding: 0;
+}
+#content .entry-content
+{
+    overflow: auto;
+}
+#content .entry-content .post-image
+{
+    padding: 4px;
+    border: 1px solid #000000;
+}
+#content .post P
+{
+    margin: 0;
+    padding: 0 0 10px;
+}
+#content .sticky
+{
+/*background: #464646;*/
+    margin: 0 0 40px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+}
+#content .post-image
+{
+    margin: 0 10px 10px 0;
+    padding: 4px;
+    border: 1px solid #DDDDDD;
+}
+/*Sidebar*/
+#sidebar, #sidebar-alt
+{
+    background: url(images/blogwidget_bg.png) repeat;
+}
+#sidebar .widget, #sidebar-alt .widget
+{
+    background: none;
+    border: none;
+}
+.widget.widget_text .textwidget
+{
+    background: #FFF;
+}
+.sidebar.widget-area UL LI, #footer-widgets .widget-area UL LI
+{
+    border: none;
+    margin: 0;
+    padding: 0 0 0 15px;
+    list-style: none outside none;
+}
+#sidebar IMG, #sidebar A IMG, #sidebar-alt IMG, #sidebar-alt A IMG
+{
+    border: none;
+    margin: 10px 0 5px;
+    padding: 0;
+}
+#sidebar H2, #sidebar H2 A, #sidebar-alt H2, #sidebar-alt H2 A, #sidebar H4, #sidebar-alt H4
+{
+    font-family: Arial, Tahoma, Verdana;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #000;
+}
+#sidebar H2, #sidebar H2 A, #sidebar-alt H2, #sidebar-alt H2 A
+{
+    font-size: 14px;
+    font-weight: normal;
+}
+#sidebar H4, #sidebar-alt H4
+{
+    background: url(images/titlebar.png) repeat;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2px 5px 1px 8px;
+}
+/*Footer*/
+#footer{
+    background: url(images/footer.png) repeat;
+}
+#footer P
+{
+    color: #000000;
+}
+#footer A, #footer A:visited
+{
+    color: #0000FF;
+}
+/*Fonts*/
+BODY, P, SELECT, TEXTAREA, A, SPAN
+{
+    font-size: 12px;
+    font-family: Arial, Tahoma, Verdana;
+    color: #000;
+}
+#content H1, #content H2, #content H3, #content H4, #content H5, #content H6
+{
+    font-family: Arial, Tahoma, Verdana;
+    text-decoration: none;
+}
+#content H1 A, #content H2 A, #content H3 A, #content H4 A, #content H5 A, #content H6 A
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #000;
+}
+A, A:visited
+{
+    color: #0000FF;
+    text-decoration: none;
+}
+A:hover
+{
+    color: #0000FF;
+    text-decoration: underline;
+}
+A:focus, A:hover, A:active
+{
+    outline: none;
+}
+/*Misc*/
